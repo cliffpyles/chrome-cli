@@ -1,0 +1,22 @@
+{
+  "name": "chrome-cli",
+  "description": "A command-line tool for interacting with Chrome resources.",
+  "version": "1.0.0",
+  "author": "Cliff Pyles <cliff@cliffpyles.com>",
+  "license": "MIT",
+  "keywords": [
+    "chrome",
+    "cli",
+    "bookmarks"
+  ],
+  "main": "app.js",
+  "bin": {
+    "chrome": "./app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
